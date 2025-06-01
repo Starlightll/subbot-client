@@ -4,14 +4,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Contact Page | Play SaaS Starter Kit and Boilerplate for Next.js",
+    "BizBot - Liên Hệ & Hỗ Trợ",
   description: "This is contact page description",
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Contact Page" />
+      <Breadcrumb pageName="Liên Hệ & Hỗ Trợ" />
 
       <Contact />
     </>

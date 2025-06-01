@@ -21,8 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+                TRỢ LÝ CHĂM SÓC KHÁCH HÀNG ĐẮC LỰC.
               </p>
               <div className="-mx-3 flex items-center">
                 <Link
@@ -97,7 +96,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                About Us
+                Links
               </h4>
               <ul>
                 <li>
@@ -105,7 +104,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Home
+                    Trang Chủ
                   </Link>
                 </li>
                 <li>
@@ -113,7 +112,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Features
+                    Bảng Giá
                   </Link>
                 </li>
                 <li>
@@ -121,24 +120,24 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    Liên hệ & Hỗ Trợ
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Testimonial
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Features
+                Hotline
               </h4>
               <ul>
                 <li>
@@ -146,7 +145,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    How it works
+                    +84 123 456 789
                   </Link>
                 </li>
                 <li>
@@ -154,7 +153,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Privacy policy
+                    +84 987 654 321
                   </Link>
                 </li>
                 <li>
@@ -162,24 +161,24 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Terms of Service
+                    +84 123 456 789
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Refund policy
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Our Products
+                Email
               </h4>
               <ul>
                 <li>
@@ -187,7 +186,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    LineIcons
+                    example@gmail.com
                   </Link>
                 </li>
                 <li>
@@ -195,10 +194,10 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Next.js Templates
+                    example@gmail.com
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
@@ -213,14 +212,14 @@ const Footer = () => {
                   >
                     PlainAdmin
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
-          <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
+          {/* <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Useful Links
+                Email
               </h4>
               <ul>
                 <li>
@@ -228,7 +227,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    FAQ
+                    example@gmail.com
                   </Link>
                 </li>
                 <li>
@@ -257,7 +256,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -288,7 +287,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
+            {/* <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
@@ -302,7 +301,7 @@ const Footer = () => {
                   </Link>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

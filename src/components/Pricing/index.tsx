@@ -12,9 +12,9 @@ const Pricing = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Pricing Table"
-            title="Our Pricing Plan"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            subtitle="Bảng Giá"
+            title="Gói Dịch Vụ Của Chúng Tôi"
+            paragraph="Chúng tôi cung cấp nhiều lựa chọn phù hợp với nhu cầu của từng doanh nghiệp."
             center
           />
         </div>
@@ -22,7 +22,7 @@ const Pricing = () => {
         <div className="-mx-4 flex flex-wrap justify-center">
           {pricingData.map((product, i) => (
             <PricingBox key={i} product={product} />
-          ))}     
+          ))}
         </div>
       </div>
     </section>
